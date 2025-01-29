@@ -1,0 +1,189 @@
+/* Schrijf hier je CSS */
+body {
+    background-image: url('https://media.istockphoto.com/id/1182467056/vector/cute-meadow-area-with-clouds-stars-and-mountains.jpg?s=612x612&w=0&k=20&c=SwM7C0pbLBDmJRKXJLwGfFVPB2Tl5boff8kYmQOs3mg=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: monospace;
+    position: absolute;
+    top: 50px; 
+    left: 420px; 
+  }
+h2 {
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    color: white;
+    font-style: bold;
+    position: absolute; 
+    top: 200px;
+    left: 400px; 
+
+}
+.bottomleft {
+    position: absolute;
+    bottom: 200px;
+    left: 260px;
+}
+
+.bottommid {
+    position: absolute;
+    bottom: 200px;
+    left: 560px; 
+}   
+.bottomright {
+    position: absolute;
+    bottom: 200px;
+    left: 860px; 
+}
+
+button {
+    padding: 15px 32px; 
+    font-family: 'Gill Sans MT';
+    font-size: 30px;
+    color: whitesmoke; 
+    cursor: pointer; 
+    float: bottom;
+    border-radius: 6px; 
+}
+.button2x3 {
+    background-color: green;
+}
+
+.button3x4 {
+    background-color: orange;
+}
+
+.button4x5 {
+    background-color: red;
+}
+
+table {
+    border: 1px solid black;
+    background-color: magenta;
+    margin: auto;
+    border-spacing: 7px;
+}
+
+td {
+    font-family: "Arial black";
+    text-decoration-color: blueviolet;
+    font-size: 30px; 
+    width: 60px;
+    height: 70px;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    background-color: purple;
+}
+
+.hiddenText {
+    -webkit-text-fill-color: transparent;
+}
+
+.loccount1_2x3 {
+    position: absolute;
+    right: 670px;
+    bottom: 360px;
+
+}    
+.loccount2_2x3 {
+    position: absolute;
+    right: 600px;
+    bottom: 360px;
+}
+.loccount1_3x4 {
+    position: absolute;
+    right: 670px;
+    bottom: 280px;
+
+}    
+.loccount2_3x4 {
+    position: absolute;
+    right: 600px;
+    bottom: 280px;
+}
+.loccount1_4x5 {
+    position: absolute;
+    right: 670px;
+    bottom: 200px;
+
+}    
+.loccount2_4x5 {
+    position: absolute;
+    right: 600px;
+    bottom: 200px;
+}
+.locRestart_Random_2x3 {
+    position: absolute;
+    right: 535px;
+    top: 240px;
+}
+.locRestart_Random_3x4 {
+    position: absolute;
+    right: 535px;
+    top: 320px;
+}
+.locRestart_Random_4x5 {
+    position: absolute;
+    right: 540px;
+    top: 400px;
+}
+.locRestart_2x3 {
+    position: absolute;
+    right: 515px;
+    top: 250px;
+}
+.locRestart_3x4 {
+    position: absolute;
+    right: 515px;
+    top: 330px;
+}
+.locRestart_4x5 {
+    position: absolute;
+    right: 515px;
+    top: 400px;
+}
+
+.count1 {
+    -webkit-text-fill-color: orange;
+  font-size: 30px;
+  font-family: Arial;
+}
+.count2 {
+    -webkit-text-fill-color: aqua;
+font-size: 30px;
+font-family: Arial;
+}
+.VLbutton {
+    background-color: black;
+    -webkit-text-fill-color: aqua;
+    font-size: 30px;
+    padding: 15px 32px; 
+    font-family: 'Gill Sans MT';
+    border-radius: 6px; 
+
+}
+.locVL {
+    position: absolute;
+    bottom: 80px;
+    left: 490px; 
+}
+.RestartButton {
+    background-color: rgb(222, 91, 3);
+    -webkit-text-fill-color: white
+    font-size 30px;
+    padding: 15px 32px; 
+    font-family: 'Gill Sans MT';
+    border-radius: 6px; 
+
+}

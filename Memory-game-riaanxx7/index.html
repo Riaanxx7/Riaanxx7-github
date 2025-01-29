@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<!-- Laat de twee volgende lijnen staan -->
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+
+    <body>
+        <div id="start_screen">
+            <header>
+                <h1>Concentration</h1>
+            </header>
+            <h2>Choose the size of your puzzle</h2>
+        
+            <div class="bottomleft">
+                <button class="button button2x3" onclick="loadPuzzle('2x3')">2x3</button>
+            </div>
+            <div class="bottommid">
+                <button class="button button3x4" onclick="loadPuzzle('3x4')">3x4</button>
+            </div>
+            <div class="bottomright">
+                <button class="button button4x5" onclick="loadPuzzle('4x5')">4x5</button>
+            </div>
+            <div class="locVL">
+                <button class="VLbutton" onclick="VLscherm()">voorbeeldlevels</button>
+            </div>
+        </div>
+        <div id="teller1_2x3" class="loccount1_2x3 count1" style="display: none;">0</div>
+        <div id="teller2_2x3" class="loccount2_2x3 count2" style="display: none;">0</div>
+        <div id="teller1_3x4" class="loccount1_3x4 count1" style="display: none;">0</div>
+        <div id="teller2_3x4" class="loccount2_3x4 count2" style="display: none;">0</div>
+        <div id="teller1_4x5" class="loccount1_4x5 count1" style="display: none;">0</div>
+        <div id="teller2_4x5" class="loccount2_4x5 count2" style="display: none;">0</div>
+        
+        <div id="restartlevel1" style="display: none;">
+            <button class="locRestart_2x3 RestartButton" onclick="loadPuzzle('level1')">Restart Level 1</button>
+        </div>
+        <div id="restartlevel2" style="display: none;">
+            <button class="locRestart_3x4 RestartButton" onclick="loadPuzzle('level2')">Restart Level 2</button>
+        </div>
+        <div id="restartlevel3" style="display: none;">
+            <button class="locRestart_4x5 RestartButton" onclick="loadPuzzle('level3')">Restart Level 3</button>
+        </div>
+        
+        <div id="restart_random_2x3" style="display: none;">
+            <button class="locRestart_Random_2x3 RestartButton" onclick="loadPuzzle('2x3')">Restart 2x3</button>
+        </div>
+        <div id="restart_random_3x4" style="display: none;">
+            <button class="locRestart_Random_3x4 RestartButton" onclick="loadPuzzle('3x4')">Restart 3x4</button>
+        </div>
+        <div id="restart_random_4x5" style="display: none;">
+            <button class="locRestart_Random_4x5 RestartButton" onclick="loadPuzzle('4x5')">Restart 4x5</button>
+        </div>
+
+        <div id="Levels" style="display: none;">
+            <button class="bottomleft VLbutton" onclick="loadPuzzle('level1')">level 1</button>
+            <button class="bottommid VLbutton" onclick="loadPuzzle('level2')">level 2</button>
+            <button class="bottomright VLbutton" onclick="loadPuzzle('level3')">level 3</button>
+        </div>
+
+        <div id="puzzle_container"></div>
+        
+    </body>
+    <script src="code.js"></script>
+</html>
+
